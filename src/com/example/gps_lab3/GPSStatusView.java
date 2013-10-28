@@ -1,15 +1,16 @@
 package com.example.gps_lab3;
 
 import android.content.Context;
-import android.graphics.*;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.Paint;
+import android.graphics.Point;
 import android.util.AttributeSet;
 import android.view.Display;
 import android.view.View;
 import android.view.WindowManager;
-import android.widget.TextView;
 
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Random;
 
 /**
@@ -22,7 +23,7 @@ import java.util.Random;
 public class GPSStatusView extends View {
 
     ArrayList<Point> satellitesPositions = new ArrayList<Point>();
-    public final float maxRadius = 150;
+    public final float maxRadius = 200;
     private Paint paint = new Paint();
 
     public ArrayList<GpsSatellite2> satellites = new ArrayList<GpsSatellite2>();
@@ -33,27 +34,18 @@ public class GPSStatusView extends View {
         satellitesGenerator(satellites);
     }
 
-    public GPSStatusView(Context context, AttributeSet attrs) {
-        super(context, attrs);
-    }
-
-    public GPSStatusView(Context context, AttributeSet attrs, int defStyle) {
-        super(context, attrs, defStyle);
-    }
-
-
     @Override
     protected void onDraw(Canvas canvas) {
 
 //        super.onDraw(canvas);    //To change body of overridden methods use File | Settings | File Templates.
         Display disp = ((WindowManager) this.getContext().getSystemService(Context.WINDOW_SERVICE)).getDefaultDisplay();
 
-        TextView tv = (TextView) findViewById(R.id.tv_satellite);
+//        TextView tv = (TextView) findViewById(R.id.tv_satellite);
 
         paint.setColor(Color.YELLOW);
         paint.setStyle(Paint.Style.STROKE);
-        int cx = canvas.getWidth() / 2;
-        int cy = canvas.getHeight() / 2;
+        int cx = getWidth() / 2;
+        int cy = getHeight() / 2;
 
         // draw vertical
         paint.setColor(Color.RED);
@@ -87,8 +79,8 @@ public class GPSStatusView extends View {
         for (int i = 0; i < tab.length; i++) {
             cos = (double) Math.cos(Math.toRadians(tab[i]));
             radius = (maxRadius * cos);
-            canvas.drawCircle(canvas.getWidth() / 2, canvas.getHeight() / 2, (float) radius, paint);
-            canvas.drawText(String.valueOf(tab[i]), canvas.getWidth() / 2, (canvas.getHeight() / 2) - (float) radius - 1, paint);
+            canvas.drawCircle(getWidth() / 2, getHeight() / 2, (float) radius, paint);
+            canvas.drawText(String.valueOf(tab[i]), getWidth() / 2, (getHeight() / 2) - (float) radius - 1, paint);
         }
         paint.setTextSize(paint.getTextSize() - textSize);
     }

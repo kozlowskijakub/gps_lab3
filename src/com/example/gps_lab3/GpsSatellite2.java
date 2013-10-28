@@ -1,7 +1,5 @@
 package com.example.gps_lab3;
 
-import android.location.GpsSatellite;
-
 /**
  * Created with IntelliJ IDEA.
  * User: jakub
