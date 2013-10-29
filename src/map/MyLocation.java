@@ -4,6 +4,7 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+import android.util.AttributeSet;
 import android.view.View;
 
 import java.util.ArrayList;
@@ -16,6 +17,35 @@ public class MyLocation extends View {
 
     public MyLocation(Context context) {
         super(context);
+    }
+
+    public MyLocation(Context context, AttributeSet attrs) {
+        super(context, attrs);
+    }
+
+    public MyLocation(Context context, AttributeSet attrs, int defStyle) {
+        super(context, attrs, defStyle);
+    }
+
+    public MyLocation(Context context, POI poi, ArrayList<POI> poiList, Paint paint) {
+        super(context);
+        this.poi = poi;
+        this.poiList = poiList;
+        this.paint = paint;
+    }
+
+    public MyLocation(Context context, AttributeSet attrs, POI poi, ArrayList<POI> poiList, Paint paint) {
+        super(context, attrs);
+        this.poi = poi;
+        this.poiList = poiList;
+        this.paint = paint;
+    }
+
+    public MyLocation(Context context, AttributeSet attrs, int defStyle, POI poi, ArrayList<POI> poiList, Paint paint) {
+        super(context, attrs, defStyle);
+        this.poi = poi;
+        this.poiList = poiList;
+        this.paint = paint;
     }
 
     @Override
@@ -32,6 +62,6 @@ public class MyLocation extends View {
 //        for (POI poi : poiList) {
 //            canvas.drawPoint((float) poi.xCoordinate, (float) poi.yCoordinate, paint);
 //        }
-        this.invalidate();
+//        this.invalidate();
     }
 }
