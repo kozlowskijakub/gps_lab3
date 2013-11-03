@@ -60,6 +60,7 @@ public class MainActivity extends Activity implements GpsStatus.Listener {
         locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
         try {
             locationManager.addGpsStatusListener(this);
+            drawGps(new View(this));
         } catch (Exception e) {
 
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.

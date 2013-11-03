@@ -19,7 +19,6 @@
         <option name="nightMode" value="notnight" />
         <option name="targetHashString" value="android-18" />
         <option name="theme" value="Theme" />
-        <option name="visible" value="false" />
       </GlobalState>
     </option>
   </component>
@@ -28,24 +27,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9dd33cf-3572-441d-8ad9-693b1f185ad2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/gps_lab3/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/example/gps_lab3/MainActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/calculations/GeoCalc.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/example/gps_lab3/MainActivity.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/gps_lab3/GPSStatusView.java" afterPath="$PROJECT_DIR$/src/com/example/gps_lab3/GPSStatusView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/activities/MainActivity.java" afterPath="$PROJECT_DIR$/src/activities/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/activities/MapActivity.java" afterPath="$PROJECT_DIR$/src/activities/MapActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/map/MyLocation.java" afterPath="$PROJECT_DIR$/src/map/MyLocation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/map/POI.java" afterPath="$PROJECT_DIR$/src/map/POI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main_main.xml" afterPath="$PROJECT_DIR$/res/layout/main_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/mapview.xml" afterPath="$PROJECT_DIR$/res/layout/mapview.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gps_lab3.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/res/values/strings.xml" changelist="a9dd33cf-3572-441d-8ad9-693b1f185ad2" time="1382881954684" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/misc.xml" changelist="a9dd33cf-3572-441d-8ad9-693b1f185ad2" time="1382881959288" ignored="false" />
-    <file path="/Dummy.txt" changelist="a9dd33cf-3572-441d-8ad9-693b1f185ad2" time="1383068665957" ignored="false" />
+    <file path="/Dummy.txt" changelist="a9dd33cf-3572-441d-8ad9-693b1f185ad2" time="1383471241560" ignored="false" />
     <file path="$USER_HOME$/gps_lab3/gps_lab2/gen/com/example/jakubkozlowski/Manifest.java" changelist="a9dd33cf-3572-441d-8ad9-693b1f185ad2" time="1382882300754" ignored="false" />
     <file path="/GPSStatusView.java" changelist="a9dd33cf-3572-441d-8ad9-693b1f185ad2" time="1382983511920" ignored="false" />
     <file path="/my_view.xml" changelist="a9dd33cf-3572-441d-8ad9-693b1f185ad2" time="1382905994706" ignored="false" />
-    <file path="/fragment.java" changelist="a9dd33cf-3572-441d-8ad9-693b1f185ad2" time="1383054453191" ignored="false" />
+    <file path="/fragment.java" changelist="a9dd33cf-3572-441d-8ad9-693b1f185ad2" time="1383130720482" ignored="false" />
     <file path="/Triangle.java" changelist="a9dd33cf-3572-441d-8ad9-693b1f185ad2" time="1382906897653" ignored="false" />
-    <file path="/MainActivity.java" changelist="a9dd33cf-3572-441d-8ad9-693b1f185ad2" time="1383055834451" ignored="false" />
+    <file path="/MainActivity.java" changelist="a9dd33cf-3572-441d-8ad9-693b1f185ad2" time="1383486003637" ignored="false" />
     <file path="/main_main.xml" changelist="a9dd33cf-3572-441d-8ad9-693b1f185ad2" time="1382973906158" ignored="false" />
     <file path="/MyGPSListener.java" changelist="a9dd33cf-3572-441d-8ad9-693b1f185ad2" time="1382944600289" ignored="false" />
     <file path="/AndroidManifest.xml" changelist="a9dd33cf-3572-441d-8ad9-693b1f185ad2" time="1382986313133" ignored="false" />
@@ -53,11 +56,18 @@
     <file path="/MyGPSStatus.java" changelist="a9dd33cf-3572-441d-8ad9-693b1f185ad2" time="1382945444436" ignored="false" />
     <file path="/GpsSatellite2.java" changelist="a9dd33cf-3572-441d-8ad9-693b1f185ad2" time="1382966172666" ignored="false" />
     <file path="/Test.java" changelist="a9dd33cf-3572-441d-8ad9-693b1f185ad2" time="1382969752866" ignored="false" />
-    <file path="/MapActivity.java" changelist="a9dd33cf-3572-441d-8ad9-693b1f185ad2" time="1383066919449" ignored="false" />
-    <file path="/POI.java" changelist="a9dd33cf-3572-441d-8ad9-693b1f185ad2" time="1382987388261" ignored="false" />
-    <file path="/mapview.xml" changelist="a9dd33cf-3572-441d-8ad9-693b1f185ad2" time="1383058403871" ignored="false" />
+    <file path="/MapActivity.java" changelist="a9dd33cf-3572-441d-8ad9-693b1f185ad2" time="1383486566405" ignored="false" />
+    <file path="/POI.java" changelist="a9dd33cf-3572-441d-8ad9-693b1f185ad2" time="1383472635949" ignored="false" />
+    <file path="/mapview.xml" changelist="a9dd33cf-3572-441d-8ad9-693b1f185ad2" time="1383339283722" ignored="false" />
     <file path="/MyLocationListener.java" changelist="a9dd33cf-3572-441d-8ad9-693b1f185ad2" time="1382986879753" ignored="false" />
-    <file path="/MyLocation.java" changelist="a9dd33cf-3572-441d-8ad9-693b1f185ad2" time="1383067420474" ignored="false" />
+    <file path="/MyLocation.java" changelist="a9dd33cf-3572-441d-8ad9-693b1f185ad2" time="1383481576725" ignored="false" />
+    <file path="$USER_HOME$/Desktop/Dropbox/Projekty/Android/gps_lab3/src/com/example/gps_lab3/MainActivity.java" changelist="a9dd33cf-3572-441d-8ad9-693b1f185ad2" time="1383129716415" ignored="false" />
+    <file path="$USER_HOME$/Desktop/Dropbox/Projekty/Android/gps_lab3/src/activities/MapActivity.java" changelist="a9dd33cf-3572-441d-8ad9-693b1f185ad2" time="1383129716415" ignored="false" />
+    <file path="$USER_HOME$/Desktop/Dropbox/Projekty/Android/gps_lab3/src/map/MyLocation.java" changelist="a9dd33cf-3572-441d-8ad9-693b1f185ad2" time="1383129716415" ignored="false" />
+    <file path="/MyActivity.java" changelist="a9dd33cf-3572-441d-8ad9-693b1f185ad2" time="1383130621244" ignored="false" />
+    <file path="$PROJECT_DIR$/../gps_nmea/src/com/example/gps_nmea/MyActivity.java" changelist="a9dd33cf-3572-441d-8ad9-693b1f185ad2" time="1383130628085" ignored="false" />
+    <file path="$USER_HOME$/Desktop/Dropbox/Projekty/pkc_lab4/.idea/workspace.xml" changelist="a9dd33cf-3572-441d-8ad9-693b1f185ad2" time="1383345055160" ignored="false" />
+    <file path="/GeoCalc.java" changelist="a9dd33cf-3572-441d-8ad9-693b1f185ad2" time="1383472493304" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +87,7 @@
     <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -113,7 +124,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/test/src/Test.java" line="12" class="Test" package="">
         <option name="ENABLED" value="true" />
@@ -130,7 +140,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/activities/MainActivity.java" line="27" class="activities.MainActivity" package="activities">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/gps_lab3/GPSStatusView.java" line="31" class="com.example.gps_lab3.GPSStatusView" package="com.example.gps_lab3">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -145,7 +155,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/activities/MainActivity.java" line="57" class="activities.MainActivity" package="activities">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/gps_lab3/GPSStatusView.java" line="23" class="com.example.gps_lab3.GPSStatusView" package="com.example.gps_lab3">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -160,7 +170,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/activities/MainActivity.java" line="70" class="activities.MainActivity" package="activities">
+      <breakpoint url="file://$PROJECT_DIR$/src/map/MyLocation.java" line="17" class="map.MyLocation" package="map">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -175,7 +185,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/activities/MainActivity.java" line="20" class="activities.MainActivity" package="activities">
+      <breakpoint url="file://$PROJECT_DIR$/src/activities/MapActivity.java" line="60" class="activities.MapActivity" package="activities">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -190,97 +200,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/example/gps_lab3/GPSStatusView.java" line="32" class="com.example.gps_lab3.GPSStatusView" package="com.example.gps_lab3">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/example/gps_lab3/GPSStatusView.java" line="24" class="com.example.gps_lab3.GPSStatusView" package="com.example.gps_lab3">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/map/MyLocation.java" line="19" class="map.MyLocation" package="map">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/map/MyLocation.java" line="32" class="map.MyLocation" package="map">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/activities/MapActivity.java" line="45" class="activities.MapActivity" package="activities">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/activities/MapActivity.java" line="29" class="activities.MapActivity" package="activities">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/map/MyLocation.java" line="35" class="map.MyLocation" package="map">
+      <breakpoint url="file://$PROJECT_DIR$/src/activities/MapActivity.java" line="37" class="activities.MapActivity" package="activities">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -308,31 +228,10 @@
       <file leaf-file-name="MapActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/activities/MapActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="35" selection-start="1598" selection-end="1598" vertical-scroll-proportion="0.22360249">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/gps_lab3/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="0" selection-start="2144" selection-end="2144" vertical-scroll-proportion="0.0">
+            <state line="64" column="55" selection-start="2058" selection-end="2058" vertical-scroll-proportion="1.069869">
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mapview.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/mapview.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="0" selection-start="2650" selection-end="2650" vertical-scroll-proportion="-18.6">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -340,9 +239,34 @@
       <file leaf-file-name="MyLocation.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/map/MyLocation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="33" selection-start="1119" selection-end="1119" vertical-scroll-proportion="0.0">
+            <state line="13" column="23" selection-start="302" selection-end="310" vertical-scroll-proportion="-7.8">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/activities/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="51" selection-start="1034" selection-end="1034" vertical-scroll-proportion="25.32">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mapview.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/mapview.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="40" selection-start="756" selection-end="756" vertical-scroll-proportion="-5.1">
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -370,21 +294,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/src/Test.java" />
         <option value="$PROJECT_DIR$/src/path/MapActivity.java" />
-        <option value="$PROJECT_DIR$/res/layout/main_main.xml" />
         <option value="$PROJECT_DIR$/res/layout/my_view.xml" />
         <option value="$PROJECT_DIR$/src/path/POI.java" />
         <option value="$PROJECT_DIR$/src/map/MapActivity.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/map/POI.java" />
         <option value="$PROJECT_DIR$/src/map/MyLocationListener.java" />
-        <option value="$PROJECT_DIR$/src/activities/MainActivity.java" />
         <option value="$USER_HOME$/adt-bundle-linux-x86_64-20130917/sdk/sources/android-18/android/view/LayoutInflater.java" />
         <option value="$PROJECT_DIR$/src/com/example/gps_lab3/GPSStatusView.java" />
+        <option value="$PROJECT_DIR$/src/com/example/gps_lab3/MainActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/main_main.xml" />
+        <option value="$PROJECT_DIR$/src/map/POI.java" />
+        <option value="$PROJECT_DIR$/src/calculations/GeoCalc.java" />
+        <option value="$PROJECT_DIR$/src/activities/MainActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/mapview.xml" />
         <option value="$PROJECT_DIR$/src/map/MyLocation.java" />
-        <option value="$PROJECT_DIR$/src/com/example/gps_lab3/MainActivity.java" />
         <option value="$PROJECT_DIR$/src/activities/MapActivity.java" />
       </list>
     </option>
@@ -394,6 +318,41 @@
     <option name="y" value="24" />
     <option name="width" value="1440" />
     <option name="height" value="876" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Declaration redundancy</id>
+          </State>
+          <State>
+            <id>Error handling</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>OSGi</id>
+          </State>
+          <State>
+            <id>Portability issues</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -504,8 +463,40 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="gps_lab3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gps_lab3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gps_lab3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gps_lab3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gps_lab3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calculations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -585,12 +576,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHOW_ALL_PROCESSES" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -878,33 +869,35 @@
     <frame x="1366" y="24" width="1440" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="1535" y="619" width="1242" height="702" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.33553502" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32855093" sideWeight="0.57727873" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.33553502" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32783356" sideWeight="0.71334213" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.57727873" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34346104" sideWeight="0.63414633" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32760897" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32760897" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.33553502" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41479525" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41347423" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32760897" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.33553502" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4610304" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2482066" sideWeight="0.672391" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.339498" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22381635" sideWeight="0.53896964" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27741084" sideWeight="0.49928263" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.659181" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="1366" y="644" width="1242" height="702" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902297" sideWeight="0.659181" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -974,121 +967,122 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/adt-bundle-linux-x86_64-20130917/sdk/sources/android-18/android/view/LayoutInflater.java">
+    <entry file="file://$USER_HOME$/adt-bundle-linux-x86_64-20130917/sdk/sources/android-18/android/view/Choreographer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="497" column="60" selection-start="20312" selection-end="20312" vertical-scroll-proportion="0.61904764" />
+        <state line="735" column="0" selection-start="30004" selection-end="30004" vertical-scroll-proportion="0.33333334" />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/adt-bundle-linux-x86_64-20130917/sdk/sources/android-18/android/app/Activity.java">
+    <entry file="file://$USER_HOME$/adt-bundle-linux-x86_64-20130917/sdk/sources/android-18/android/widget/FrameLayout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5133" column="0" selection-start="216760" selection-end="216760" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="468" column="0" selection-start="17671" selection-end="17671" vertical-scroll-proportion="0.33333334" />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/adt-bundle-linux-x86_64-20130917/sdk/sources/android-18/android/app/Instrumentation.java">
+    <entry file="file://$USER_HOME$/adt-bundle-linux-x86_64-20130917/sdk/sources/android-18/android/view/View.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1088" column="0" selection-start="41666" selection-end="41666" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/adt-bundle-linux-x86_64-20130917/sdk/sources/android-18/android/view/ViewGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2922" column="0" selection-start="110273" selection-end="110273" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/adt-bundle-linux-x86_64-20130917/sdk/sources/android-18/android/os/Looper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="146" column="44" selection-start="5199" selection-end="5199" vertical-scroll-proportion="0.6">
+        <state line="17721" column="0" selection-start="686798" selection-end="686798" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/adt-bundle-linux-x86_64-20130917/sdk/sources/android-18/android/os/Handler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="0" selection-start="4112" selection-end="4112" vertical-scroll-proportion="0.33333334">
+        <state line="100" column="0" selection-start="4112" selection-end="4112" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/adt-bundle-linux-x86_64-20130917/sdk/sources/android-18/android/os/Looper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="136" column="0" selection-start="4745" selection-end="4745" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="32" selection-start="433" selection-end="433" vertical-scroll-proportion="0.28368795">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/adt-bundle-linux-x86_64-20130917/sdk/sources/android-18/android/view/Choreographer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="735" column="0" selection-start="30004" selection-end="30004" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/adt-bundle-linux-x86_64-20130917/sdk/sources/android-18/android/widget/FrameLayout.java">
+    <entry file="file://$USER_HOME$/adt-bundle-linux-x86_64-20130917/sdk/sources/android-18/android/location/Location.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="468" column="0" selection-start="17671" selection-end="17671" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/adt-bundle-linux-x86_64-20130917/sdk/sources/android-18/android/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13949" column="0" selection-start="545344" selection-end="545344" vertical-scroll-proportion="0.33333334">
+        <state line="549" column="18" selection-start="19816" selection-end="19816" vertical-scroll-proportion="0.3325359">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/my_view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="48" selection-start="276" selection-end="276" vertical-scroll-proportion="0.2238806">
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/gps_lab3/GpsSatellite2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="15" column="47" selection-start="350" selection-end="350" vertical-scroll-proportion="0.30779755">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/gps_lab3/GPSStatusView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="30" selection-start="2266" selection-end="2266" vertical-scroll-proportion="1.8090452">
+        <state line="103" column="82" selection-start="3738" selection-end="3738" vertical-scroll-proportion="0.5821727">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/calculations/GeoCalc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="8" selection-start="860" selection-end="860" vertical-scroll-proportion="0.6621881">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/mapview.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="40" selection-start="756" selection-end="756" vertical-scroll-proportion="-5.1">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/map/POI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="35" selection-start="238" selection-end="238" vertical-scroll-proportion="0.43193716">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/activities/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="31" selection-start="2136" selection-end="2136" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/mapview.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="0" selection-start="2650" selection-end="2650" vertical-scroll-proportion="-18.6">
-          <folding />
+        <state line="31" column="51" selection-start="1034" selection-end="1034" vertical-scroll-proportion="25.32">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/map/MyLocation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="33" selection-start="1119" selection-end="1119" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/gps_lab3/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="0" selection-start="2144" selection-end="2144" vertical-scroll-proportion="0.0">
+        <state line="13" column="23" selection-start="302" selection-end="310" vertical-scroll-proportion="-7.8">
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/activities/MapActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="35" selection-start="1598" selection-end="1598" vertical-scroll-proportion="0.22360249">
-          <folding />
+        <state line="64" column="55" selection-start="2058" selection-end="2058" vertical-scroll-proportion="1.069869">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1109,7 +1103,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Android</last-edited>
+          <last-edited>Android (gps_lab3)|Android</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1132,7 +1126,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>Android 4.3 Platform</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

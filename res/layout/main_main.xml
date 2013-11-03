@@ -19,6 +19,7 @@
                 android:layout_weight="1"
                 android:text="Show Map"
                 android:onClick="showMap"></Button>
+
     </LinearLayout>
 </LinearLayout>
 

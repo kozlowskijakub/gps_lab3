@@ -5,7 +5,6 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Point;
-import android.util.AttributeSet;
 import android.view.Display;
 import android.view.View;
 import android.view.WindowManager;
@@ -61,7 +60,7 @@ public class GPSStatusView extends View {
         paint.setTextSize(paint.getTextSize() + 5);
         for (GpsSatellite2 satellite : satellites) {
             canvas.drawCircle(cx + satellite.xPosition, cy + satellite.yPosition, 2, paint);
-            canvas.drawText("/E:" +String.valueOf((int) satellite.getElevation()) + "/A:" + String.valueOf((int) satellite.getAzimuth()), cx + satellite.xPosition, cy + satellite.yPosition - 3, paint);
+            canvas.drawText("/E:" + String.valueOf((int) satellite.getElevation()) + "/A:" + String.valueOf((int) satellite.getAzimuth()), cx + satellite.xPosition, cy + satellite.yPosition - 3, paint);
         }
         paint.setTextSize(paint.getTextSize() - 5);
         paint.setColor(Color.YELLOW);

@@ -1,5 +1,7 @@
 package map;
 
+import android.location.Location;
+
 /**
  * Created with IntelliJ IDEA.
  * User: jakub
@@ -7,7 +9,14 @@ package map;
  * Time: 4:39 PM
  * To change this template use File | Settings | File Templates.
  */
-public class POI {
-    public double xCoordinate;
-    public double yCoordinate;
+public class POI extends Location {
+    public static double distance = 0;
+
+    public POI(String provider) {
+        super(provider);
+    }
+
+    public POI(Location l) {
+        super(l);
+    }
 }
